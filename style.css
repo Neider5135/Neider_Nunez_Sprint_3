@@ -422,3 +422,21 @@ li {
 .byt>img{
     width: 40vw;
 }
+
+
+/* Raffle
+*/
+
+iframe, form{
+    width: 35vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.radioAndCheck{
+    width: min-content;
+}
