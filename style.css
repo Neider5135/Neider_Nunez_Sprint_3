@@ -427,13 +427,48 @@ li {
 /* Raffle
 */
 
+.formandmap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: dotted white 5px;
+    width: 90vw;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map>h3{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
 iframe, form{
-    width: 40vw;
+    margin: 2vw;
+    border-radius: 5px;
+    border: double white 5px;
+}
+
+iframe{
+    width: 25vw;
+    height: 25vw;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;    
+    width: 35vw;
+    height: 80vh;
+    background-color: rgb(247, 156, 170);
 }
 
 .radioAndCheck{
@@ -441,10 +476,30 @@ form{
     flex-direction: row;
 }
 
-input{
+input, select{
     width: 20vw;
 }
 
+.input-menssage{
+    height: 15vh;
+}
+
+select{
+    text-align: center;
+}
+
 .submit{
+    margin: 1vw 0vw 1vw 1vw;
+    background-color: lightpink;
+    color: white;
+    border: double 5px white;
+    border-radius: 5px;
     width: 5vw;
+    height: 5vh;
+    transition: 1s all ease;
+}
+
+.submit:hover{
+    background-color: rgb(82, 215, 248);
+    transition: 1s all ease;
 }
