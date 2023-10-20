@@ -428,15 +428,23 @@ li {
 */
 
 iframe, form{
-    width: 35vw;
+    width: 40vw;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .radioAndCheck{
-    width: min-content;
+    width: 1vw;
+    flex-direction: row;
+}
+
+input{
+    width: 20vw;
+}
+
+.submit{
+    width: 5vw;
 }
