@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    align-self: center;
+}
+/* Mobile */
+@media only screen and (max-width: 325px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+    }
+    iframe, form{
+        margin: 0 3vh 0 3vh;
+        width: 100vw;
+    }
+    
+    iframe{
+        padding: 3vh;
+        order: 1;
+        border: none;
+        border-radius: 0.3vw;
+    }
+    
+    form{
+        order: 0;
+        padding: 8vh 4vw;
+        border-radius: 0.3vw;
+        border-bottom: 0.3vw grey solid;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .coment{
+        height: 15vh;
+    }
+    
+    .submit{
+        border: none;
+        border-radius: 0.3vw;
+        color: white;
+        background-color: dodgerblue;
+        width: max-content;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 326px) and (max-width: 768px){
+    body {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+    }
+
+    iframe, form{
+        margin: 3vw;
+    }
+    
+    iframe{
+        margin-top: 3vw;
+        margin-bottom: 3vh;
+        padding:  3vh 15vw;
+        width: 100vw;
+        height: 80vh;
+        order: 1;
+        border-top: 0.3vw grey solid;
+        border-radius: 0.3vw;
+    }
+    
+    form{
+        width: 60vw;
+        order: 0;
+        padding: 8vh 4vw;
+        border-radius: 0.3vw;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .coment{
+        height: 15vh;
+    }
+
+    .submit{
+        border: none;
+        border-radius: 0.3vw;
+        color: white;
+        background-color: dodgerblue;
+        width: max-content;
+    }
+}
+
+/*Laptop*/
+@media only screen and (min-width: 769px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(231, 231, 231);
+    }
+    
+    iframe, form{
+        margin: 3vw;
+    }
+    
+    iframe{
+        margin-top: 0;
+        border: none;
+        border-radius: 5px;
+        width: 50vh;
+        height: 50vh;
+    }
+    
+    form{
+        padding: 8vh 3vw;
+        border-radius: 0.3vw;
+        background-color: white;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coment{
+        height: 15vh;
+    }
+    
+    .submit{
+        border: none;
+        border-radius: 0.3vw;
+        color: white;
+        background-color: dodgerblue;
+        width: max-content;
+    }
+}

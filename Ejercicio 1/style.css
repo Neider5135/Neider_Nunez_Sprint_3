@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+}
+
+iframe, form{
+    margin: 3vw;
+}
+
+iframe{
+    border: none;
+    border-radius: 5px;
+    width: 30vw;
+    height: 50vh;
+}
+
+form{
+    padding: 8vh 3vw;
+    border-radius: 0.3vw;
+    background-color: white;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    align-self: center;
+}
+
+input {
+    height: 4vh;
+    width: 25vw;
+}
+
+.coment{
+    height: 15vh;
+}
+
+.submit{
+    border: none;
+    border-radius: 0.3vw;
+    color: white;
+    background-color: dodgerblue;
+    width: 5vw;
+}
