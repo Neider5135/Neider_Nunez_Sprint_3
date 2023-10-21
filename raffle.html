@@ -55,7 +55,7 @@
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div>
-                <form action="" method="get">
+                <form action="/show_data.html" method="get">
                     <label for="name">First Name</label>
                     <input type="text" id="name">
                     <label for="surname">Last Name</label>
@@ -69,26 +69,26 @@
                     <label for="Choose-date">Choose Date</label>
                     <select name="date" id="Choose-date">
                         <option value="">--Choose Date--</option>
-                        <option value=""> Date 1</option>
-                        <option value="">Date 2</option>
-                        <option value="">Date 3</option>
+                        <option value="d1"> Date 1</option>
+                        <option value="d2">Date 2</option>
+                        <option value="d3">Date 3</option>
                     </select>
-                    <label for="">Payment Options</label>
-                    <div>
-                        <input class="radioAndCheck" type="radio" name="Payment-Options" id="cash">
+                    <label for="payment-options">Payment Options</label>
+                    <div class="radioAndCheck-div">
+                        <input class="radioAndCheck" type="radio" name="payment-options" id="cash">
                         <label for="cash">Cash</label>
                     </div>
-                    <div>
-                        <input class="radioAndCheck" type="radio" name="Payment-Options" id="creditCard">
+                    <div class="radioAndCheck-div">
+                        <input class="radioAndCheck" type="radio" name="payment-options" id="creditCard">
                         <label for="creditCard">Credit Card</label>
                     </div>
-                    <div>
-                        <input class="radioAndCheck" type="radio" name="Payment-Options" id="debitCard">
+                    <div class="radioAndCheck-div">
+                        <input class="radioAndCheck" type="radio" name="payment-options" id="debitCard">
                         <label for="debitCard">Debit Card</label>
                     </div>
                     <label for="menssage">Menssage (Optional)</label>
                     <input class="input-menssage" type="text" name="menssage" id="menssage">
-                    <div>
+                    <div class="radioAndCheck-div">
                         <input class="radioAndCheck" type="checkbox" name="terms" id="">
                         <label for="terms">I acept terms and conditions...</label>
                         <input class="submit" type="submit" value="Send">
