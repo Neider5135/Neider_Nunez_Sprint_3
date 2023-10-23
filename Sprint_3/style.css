@@ -517,8 +517,12 @@
         justify-content: center;
     }
     
-    input, select{
+    input, select {
         height: 5vw;
+        width: 50vw;
+    }
+
+    textarea{
         width: 50vw;
     }
     
@@ -1055,6 +1059,10 @@
         height: 5vw;
         width: 50vw;
     }
+
+    textarea{
+        width: 50vw;
+    }
     
     .input-menssage{
         height: 15vw;
@@ -1567,6 +1575,10 @@
     }
     
     input, select{
+        width: 20vw;
+    }
+
+    textarea{
         width: 20vw;
     }
     
